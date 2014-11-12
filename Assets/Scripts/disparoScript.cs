@@ -11,7 +11,9 @@ public class disparoScript : MonoBehaviour {
 						var clone = Instantiate (bala, puntoDisparo.position,
 			                         Quaternion.identity) as GameObject;
 						clone.transform.localScale = transform.localScale;
-				}
+				} else {
+			Debug.Log ("Sin balas");
+		}
 		}
 }
 
