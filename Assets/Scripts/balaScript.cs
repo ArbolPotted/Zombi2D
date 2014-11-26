@@ -14,8 +14,8 @@ public class balaScript : MonoBehaviour {
 				//Invoke ("onDestroy", 0.2f);
 		}
 		void OnCollisionEnter2D(Collision2D target){
-		Destroy (gameObject);
-		//onDestroy();
+
+		onDestroy();
 
 		}
 	void onDestroy(){
